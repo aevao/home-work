@@ -35,6 +35,11 @@ body {
     font-size: 16px;
     line-height: 16px;
   }
+  .navbar__list_vector{
+    margin: 3px;
+    margin-left: 5px;
+
+  }
   .list__item > a {
     text-decoration: none;
     color: #35414B;
@@ -65,11 +70,7 @@ body {
     cursor: pointer;
     color: #794CFF;
   }
-  .vector::after{
-    
-    background-color: #35414B;
-    width: 50%;
-  }
+  
   .header {
     width: 100%;
     display: flex;
@@ -103,7 +104,7 @@ body {
   }
   .header__title{
     
-    width: 69%;
+    width: 65%;
     height: 144px;
     color: #35414B;
     text-align: center;
@@ -147,4 +148,89 @@ body {
     
         margin-top: 20px;
     
+  }
+  .header__end_desk{
+    width: 397px;
+  height: 16px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #4E5A65;
+  margin-top: 65px;
+
+  }
+  .logotips{
+    position: relative;
+  }
+  .logotips__desk {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    width: 90%;
+    left: 8rem;
+  }
+  
+  .logotips__desk_list {
+    
+    
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .timeline{
+    margin-top: 200px;
+    display: flex;
+  }
+  .timeline__left{
+    width: 60%;
+  }
+  .timeline__left_img{
+    margin-left: 40px;
+  }
+  .timeline__right{
+    width: 40%;
+    margin-left: 6%;
+  }
+  .timeline__right_desk{
+    color: #4E5A65;
+    list-style-type: none;
+    
+
+  }
+  .active{
+    background: #F6F3FC;
+    border: 1px solid #F6F3FC;
+    border-radius: 0px 8px 8px 0px;
+    
+    border-left: 8px solid #794CFF ;
+    padding: 30px 30px;
+  }
+  .timeline__right_list{
+    
+   
+    border-bottom: 1px solid #F0EBFA;
+    padding: 30px 30px;
+
+  }
+  .timeline__title{
+    color: #35414B;
+    margin-bottom: 3%;
+    font-size: 18px;
+  }
+  .timeline__desc{
+    width: 85%;
   }
