@@ -129,6 +129,8 @@ body {
   background: #ffffff;
   border: 1px solid #e1e5ea;
   border-radius: 4px 0px 0px 4px;
+  font-size: 16px;
+  padding-left: 5%;
 }
 .header__btn3 {
   position: absolute;
@@ -143,6 +145,7 @@ body {
   bottom: 0em;
   font-family: "Inter", sans-serif;
   font-size: 16px;
+  cursor: pointer;
 }
 .header__img {
   margin-top: 20px;
@@ -201,21 +204,23 @@ body {
 .timeline__right {
   width: 40%;
   margin-left: 6%;
+  margin-right: 3%;
 }
 .timeline__right_desk {
   color: #4e5a65;
   list-style-type: none;
 }
-.active {
+
+.timeline__right_list {
+  border-bottom: 1px solid #f0ebfa;
+  padding: 30px 30px;
+  
+}
+.timeline__right_desk > li:hover{
   background: #f6f3fc;
   border: 1px solid #f6f3fc;
   border-radius: 0px 8px 8px 0px;
-
   border-left: 8px solid #794cff;
-  padding: 30px 30px;
-}
-.timeline__right_list {
-  border-bottom: 1px solid #f0ebfa;
   padding: 30px 30px;
 }
 .timeline__title {
@@ -269,12 +274,12 @@ body {
 .workhard {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 4%;
   background: #fbfafe;
   border: 1px solid #f0ebfa;
   border-inline: none;
-  padding-top: 5%;
+  padding: 5% 0;
 }
 .workhard__left {
   width: 35%;
@@ -319,8 +324,67 @@ body {
   width: 40%;
 }
 .customers__desc {
-  font-size: 16px;
+  font-size: 18px;
   color: #4e5a65;
   text-align: center;
-  width: 35%;
+  width: 40%;
+  margin-top: 3%;
+  line-height: 2;
+}
+.customers__profile{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 5%;
+}
+.customers__profile_text{
+  font-size: 16px;
+  color: #4E5A65;
+  line-height: 16px;
+}
+.customers__profile_list{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 18%;
+  padding: 2% 2%;
+}
+.customers__profile_list:hover{
+  border-top: 3px solid  #35414B;;
+}
+.customers__employees{
+  margin-top: 15%;
+  
+  background: #796EFF;
+  border-radius: 16px;
+  display: flex;
+  padding: 5% 2%;
+  width: 1110px;
+  height: 120px;
+
+}
+.customers__employees_right{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.customers__employees_left{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.customers__employees_text{
+  font-size: 32px;
+  text-align: start;
+  align-items: center;
+  width: 80%;
+}
+  .store{
+  width: 180px;
+  height: 53.35px;
+
+}
+
+.google{
+ margin-right: 5%;
 }
